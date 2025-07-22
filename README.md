@@ -84,27 +84,27 @@
 
 DACON/
 
-├── balanced_data_paragraph.py # 0과 1의 데이터 불균형을 under-sampling을 활용해 해결
+├── **balanced_data_paragraph.py** # 0과 1의 데이터 불균형을 under-sampling을 활용해 해결
 
-├── data.py # 데이터 불러오기 및 데이터의 탐색
+├── **data.py** # 데이터 불러오기 및 데이터의 탐색
 
-├── data_arg.py # 데이터를 증강시키려는 시도(실패)
+├── **data_arg.py** # 데이터를 증강시키려는 시도(실패)
 
-├── deberta_train_under.py # DeBERTa 모델 학습 (under-sampling 데이터를 통한 학습)
+├── **deberta_train_under.py** # DeBERTa 모델 학습 (under-sampling 데이터를 통한 학습)
 
-├── ex.ipynb # 실험용 노트북
+├── **ex.ipynb** # 실험용 노트북
 
-├── filter_data.py # 문단 단위로 필터링하여 데이터 증강(실패)
+├── **filter_data.py** # 문단 단위로 필터링하여 데이터 증강(실패)
 
-├── tf-idf_train.py # TF-IDF 기반 학습 코드(under-sampling 데이터를 통한 학습)
+├── **tf-idf_train.py** # TF-IDF 기반 학습 코드(under-sampling 데이터를 통한 학습)
 
-├── tf.py # 대회에서 제공한 베이스 코드를 활용한 tf-idf 학습
+├── **tf.py** # 대회에서 제공한 베이스 코드를 활용한 tf-idf 학습
 
-├── train.py # 기본 학습 코드(deberta의 기본 학습 코드)
+├── **train.py** # 기본 학습 코드(deberta의 기본 학습 코드)
 
-├── train_kcelectra.py # KoELECTRA 기반 학습 코드
+├── **train_kcelectra.py** # KoELECTRA 기반 학습 코드
 
-├── weighted_average.py # 모델 앙상블 (가중 평균) (under-sampling 데이터를 통한 학습) (deberta_train_under.py, tf-idf_train.py, train_kcelectra.py 세가지 모델의 가중 평균)
+├── **weighted_average.py** # 모델 앙상블 (가중 평균) (under-sampling 데이터를 통한 학습) (deberta_train_under.py, tf-idf_train.py, train_kcelectra.py 세가지 모델의 가중 평균)
 
 
 ##  실험 결과 (ROC-AUC 기준)
