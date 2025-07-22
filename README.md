@@ -111,10 +111,10 @@ DACON/
 
 | 제출 파일명                                 | 시간                     | 점수          | 설명                                      |
 |------------------------------------------|-------------------------|--------------|----------------------------------------- |
-| submission_deberta_augmented_sampled.csv | 2025-07-10 13:57:35     | 0.6034       | 증강 + 샘플링한 DeBERTa 학습 결과              |
-| submission_deberta_balanced.csv          | 2025-07-10 15:40:13     | 0.7607       | Under-sampling한 DeBERTa 모델              |
-| submission_electra_balanced.csv          | 2025-07-10 16:36:22     | 0.7770       | Under-sampling한 KoELECTRA 모델            |
-| submission_tfidf_lr.csv                  | 2025-07-10 17:07:10     | 0.6507       | Under-sampling한 TF-IDF + LogisticReg.    |
+| submission_deberta_augmented_sampled.csv | 2025-07-10 13:57:35     | 0.6034       | 증강 + 샘플링 데이터로 학습한 DeBERTa 학습 결과              |
+| submission_deberta_balanced.csv          | 2025-07-10 15:40:13     | 0.7607       | Under-sampling 데이터로 학습한 DeBERTa 모델              |
+| submission_electra_balanced.csv          | 2025-07-10 16:36:22     | 0.7770       | Under-sampling 데이터로 학습한 KoELECTRA 모델            |
+| submission_tfidf_lr.csv                  | 2025-07-10 17:07:10     | 0.6507       | Under-sampling 데이터로 학습한 TF-IDF + LogisticReg.    |
 | **submission_ensemble_weighted.csv**     | **2025-07-10 17:11:26** | **0.7999**   | 세 모델 앙상블 (가중 평균)                     |
 
 위 표는 제출한 각 모델의 결과 파일명, 제출 시간, 그리고 ROC-AUC 기준 성능을 정리한 것입니다.  
