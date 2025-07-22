@@ -18,6 +18,7 @@
 ## 🗂️ 폴더 구조 및 주요 코드 설명
 
 DACON/
+
 ├── balanced_data_paragraph.py # 0과 1의 데이터 불균형을 under-sampling을 활용해 해결
 
 ├── data.py # 데이터 불러오기 및 데이터의 탐색
