@@ -15,6 +15,32 @@
 
 ---
 
+## 🔬 실험 순서
+
+본 프로젝트는 다음과 같은 순서로 실험을 진행하였습니다:
+
+1. **데이터 탐색 및 전처리**
+   - `data.py`를 활용하여 데이터 로딩 및 구조 분석
+   - 라벨 불균형 확인 후, under-sampling 적용 (`balanced_data_paragraph.py`)
+
+2. **모델 학습**
+   - DeBERTa 모델 학습 (`deberta_train_under.py`)
+   - KoELECTRA 모델 학습 (`train_kcelectra.py`)
+   - TF-IDF + 분류기 학습 (`tf-idf_train.py`)
+
+3. **실험 분석**
+   - 각 모델의 출력 결과를 저장하고 성능 비교
+   - 모델 별 특징 및 한계점 도출 (`ex.ipynb`)
+
+4. **앙상블 및 최종 제출 파일 생성**
+   - `weighted_average.py`를 통해 세 모델의 예측값을 가중 평균
+   - 최종 제출 파일 생성
+
+5. **실패한 시도**
+   - `data_arg.py`: 데이터 증강 실험 (효과 미미)
+   - `filter_data.py`: 문단 필터링을 통한 성능 향상 시도 (성과 없음)
+
+
 ## 🗂️ 폴더 구조 및 주요 코드 설명
 
 DACON/
